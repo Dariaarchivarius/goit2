@@ -14,9 +14,10 @@ body {
 	background-color: var(--primary-background);
 	font-size: 14px;}
 	
-a:hover {
+a:hover,:focus {
 	color: var(--accent-color);
 }
+
 
 .logo,.logo-footer, .contacts-email, .contacts-phone-number,.menu-link.link,.menu-link.current,.list-images{
 	text-decoration: none;
@@ -61,6 +62,7 @@ a:hover {
 .features-description, .contacts-address {
 	line-height: 1.7;
 }
+
 .team-description {
 	font-size: 16px;
 	line-height: 1.19;
