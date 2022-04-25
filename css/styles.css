@@ -14,17 +14,14 @@ body {
 	background-color: var(--primary-background);
 	font-size: 14px;}
 	
-a:hover,:focus {
+a:hover {
 	color: var(--accent-color);
 }
 
 .logo,.logo-footer, .contacts-email, .contacts-phone-number,.menu-link.link,.menu-link.current,.list-images{
 	text-decoration: none;
 }
-.menu-link.current:hover,.menu-link.current:focus {
-	color: var(--accent-color);
 
-}
 .menu-item,.contacts-list,.features-list,.list-btn,.list-examples,.work-list,.team-list {
 	list-style-type:none;
 }
