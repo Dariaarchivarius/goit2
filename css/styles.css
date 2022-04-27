@@ -7,20 +7,29 @@
 	--secondary-btn-color: #F5F4FA;
   	--primary-background: #F5F4FA;
   	--accent-background: #2f303a;
+	--address-text-color:rgba(255, 255, 255, 0.6);
+
 }
 body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--primary-text-color);	
-	background-color: var(--primary-background);
+	background-color: var(--title-color);
 	font-size: 14px;}
 	
 a:hover,:focus {
 	color: var(--accent-color);
+	font-weight: ;
 }
-
+address {
+	font-style: normal;
+}
 
 .logo,.logo-footer, .contacts-email, .contacts-phone-number,.menu-link.link,.menu-link.current,.list-images{
 	text-decoration: none;
+	font-weight: 500px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	
 }
 
 .menu-item,.contacts-list,.features-list,.list-btn,.list-examples,.work-list,.team-list {
@@ -72,9 +81,6 @@ a:hover,:focus {
 	font-size: 16px;
 	line-height: 1.9;
 }
-.page-header {
-	background-color: var(--title-color);
-}
 
 .logo,.logo-accent,.logo-footer {
 	font-family: 'Raleway';
@@ -105,7 +111,6 @@ a:hover,:focus {
 	color: var(--accent-color);
 }
 
-
 .contacts-list {
 	color: var(--primary-text-color);
 }
@@ -120,6 +125,9 @@ a:hover,:focus {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--title-color);
+}
+.features-title {
+	text-transform: uppercase;
 }
 .modal-btn,.secondary-btn {
 	font-family: inherit;
@@ -156,10 +164,10 @@ a:hover,:focus {
 }
 
 .contacts-email {
-	color: var(--primary-text-color);
+	color: var(--address-text-color);
 }
 .contacts-phone-number {
-	color: var(--primary-text-color);
+	color: var(--address-text-color);
 }
 .contacts-address {
 	color: var(--title-color);
